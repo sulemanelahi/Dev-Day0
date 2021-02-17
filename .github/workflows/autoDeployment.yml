@@ -22,6 +22,8 @@ jobs:
 
       - name: Node.js Installation 
         uses: actions/setup-node@v2-beta
+        with:
+            node-version: 14
         
       # Runs a set of commands using the runners shell
       - name: Surge Installation
